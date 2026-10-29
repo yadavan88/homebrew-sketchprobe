@@ -11,13 +11,13 @@ class Sketchprobe < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/yadavan88/sketchprobe/releases/download/v0.1.2/sketchprobe-macos-arm64.tar.gz"
-      sha256 "6df1dab2bc2b618858c34dc86889a0e844893e045f775357a58f20e1c377c365" # macos-arm64
+      url "https://github.com/yadavan88/sketchprobe/releases/download/v0.1.3/sketchprobe-macos-arm64.tar.gz"
+      sha256 "cb2401058da65610fc99cce0a30c2828534371ae213abe7c16cd5cb3d58a7e6c" # macos-arm64
     end
 
     on_intel do
-      url "https://github.com/yadavan88/sketchprobe/releases/download/v0.1.2/sketchprobe-macos-x86_64.tar.gz"
-      sha256 "ccd224cd39df88bad647ecd8bb65ec27a6e0a75cef8f7ab5619c49031bbfb63d" # macos-x86_64
+      url "https://github.com/yadavan88/sketchprobe/releases/download/v0.1.3/sketchprobe-macos-x86_64.tar.gz"
+      sha256 "65a9f03a1a8ee4a854841a143e862ba890f8ab6af165c82bf915e4360d4f340c" # macos-x86_64
     end
   end
 
@@ -25,8 +25,8 @@ class Sketchprobe < Formula
     depends_on arch: :x86_64
 
     on_intel do
-      url "https://github.com/yadavan88/sketchprobe/releases/download/v0.1.2/sketchprobe-linux-x86_64.tar.gz"
-      sha256 "2e4878a16e7d6ae24095cac7111f0cf779ff8d9489aaaa86c281cf50ba9e620a" # linux-x86_64
+      url "https://github.com/yadavan88/sketchprobe/releases/download/v0.1.3/sketchprobe-linux-x86_64.tar.gz"
+      sha256 "47c6ee395ac3a4da085b27ac3696924b33dbb8672a5b095589ccd768887307fe" # linux-x86_64
     end
   end
 
